@@ -1,9 +1,9 @@
-# 📝 Detalles
+# 📝 Details
 
-Aquí van tus notas más específicas.
+## Cybersecurity
+- Phishing  
+- SQL Injection  
 
-## 📌 Ejemplo
-
-- Concepto 1  
-- Concepto 2  
-- Concepto 3  
+## Programming
+- Python  
+- JavaScript
