@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis Notas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tema por defecto -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+
+</head>
+<body>
+
+  <div id="app">Cargando...</div>
+
+  <script>
+    window.$docsify = {
+      name: '🧠 Mis Notas',
+      repo: '',
+      
+      // Sidebar
+      loadSidebar: true,
+
+      // Página de inicio (si usas WELCOME.MD en vez de README.md)
+      // homepage: 'WELCOME.MD',
+
+      // Navegación automática arriba
+      loadNavbar: false,
+
+      // Subir nivel del sidebar (submenús abiertos)
+      subMaxLevel: 2,
+
+      // Scroll automático arriba al cambiar de página
+      auto2top: true,
+
+      // Alias opcional (por si usas nombres raros)
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
+    }
+  </script>
+
+  <!-- Docsify -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <!-- Plugin de búsqueda 🔍 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <script>
+    window.$docsify = Object.assign(window.$docsify, {
+      search: {
+        placeholder: 'Buscar...',
+        noData: 'No se encontraron resultados',
+        depth: 2
+      }
+    });
+  </script>
+
+</body>
+</html>

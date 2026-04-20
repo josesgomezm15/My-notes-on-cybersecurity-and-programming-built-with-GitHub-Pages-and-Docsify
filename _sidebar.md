@@ -1,0 +1,3 @@
+- 🏠 [Inicio](/)
+- 📝 Notas
+  - [Detalles](details.md)
